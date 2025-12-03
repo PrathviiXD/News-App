@@ -122,7 +122,7 @@ def analyze_news(req: AnalyzeRequest):
         "language": req.language,
         "pageSize": page_size,
         "sortBy": "publishedAt",
-        "apiKey": 6380c266596d4658ad908220fe4f4026,
+        "apiKey": NEWSAPI_KEY,
     }
 
     try:
