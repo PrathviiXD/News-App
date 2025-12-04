@@ -10,10 +10,10 @@ from pydantic import BaseModel
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # 🔑 PUT YOUR NEWSAPI KEY HERE OR IN ENV
-NEWSAPI_KEY = os.getenv("6380c266596d4658ad908220fe4f4026") or "6380c266596d4658ad908220fe4f4026"
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY") or "NEWSAPI_KEY"
 
-if not NEWSAPI_KEY or NEWSAPI_KEY == "6380c266596d4658ad908220fe4f4026":
-    raise RuntimeError("Set 6380c266596d4658ad908220fe4f4026 env var or replace 6380c266596d4658ad908220fe4f4026 with your NewsAPI key.")
+if not NEWSAPI_KEY or NEWSAPI_KEY == "NEWSAPI_KEY":
+    raise RuntimeError("Set NEWSAPI_KEY env var or replace NEWSAPI_KEY with your NewsAPI key.")
 
 app = FastAPI(title="BiasRadar API")
 
