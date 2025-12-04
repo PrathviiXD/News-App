@@ -65,8 +65,6 @@ It’s useful for learning, research, personal awareness, and especially for sho
 ### **External API**
 - **NewsAPI** (https://newsapi.org/)
 
----
-
 
 ---
 
@@ -131,10 +129,36 @@ The app doesn’t claim to be perfect — it gives a **quick overview**, not a d
 
 ### **POST** `/api/analyze`
 Send:
-```json
+
 {
   "topic": "AI regulation",
   "language": "en",
   "page_size": 40
 }
 
+---
+
+## 🫶 Contributing
+
+Contributions are welcome!
+
+If you want to improve this project, fix bugs, or add new features:
+
+1. Fork the repository
+2. Create a new branch  
+3. Make your changes
+4. Commit your changes  
+5. Push your branch  
+6. Open a Pull Request on GitHub
+
+I’ll review it and merge if everything looks good.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, distribute, and build upon this project for personal or commercial purposes.
+
+See the full license here:  
+[MIT License](./LICENSE)
